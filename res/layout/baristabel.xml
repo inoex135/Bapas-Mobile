@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="3dip">
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:background="@drawable/border2"
+        android:textColor="#FF0000FF"/>
+    <TextView
+        android:id="@+id/kode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:layout_marginRight="3dip"
+        android:gravity="center"
+        android:background="@drawable/border2"
+        android:textColor="#FFFFFFFF"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:gravity="left"
+        android:background="@drawable/border2"
+        android:textColor="#FFFFFFFF"/>
+</TableRow>
